@@ -1,7 +1,8 @@
 body, html {
 	padding: 0;
-	margin: 40px;
-	/*margin-top: 60px;*/
+	width: 980px;
+	/*margin:auto;*/
+	margin: 60px auto;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Ropa Sans', sans-serif;
 }
@@ -11,7 +12,7 @@ body, html {
 #topnav{
 	/*border-style:solid;*/
 	height: 160px;
-	padding: 40px 60px;
+	padding: 28px 60px;
 }
 
 #navcontent{
@@ -29,8 +30,8 @@ body, html {
 }
 
 .nav-item{
-	padding: 16px;
-	color: black;
+	padding-right: 32px;
+	color: grey;
 
 }
 
@@ -44,7 +45,7 @@ body, html {
 }
 
 #lg{
-	fill: black;
+	fill: grey;
 }
 
 #lg:hover{
@@ -55,21 +56,83 @@ body, html {
 
 #intro{
 	/*border-style: solid;*/
-	height: 200px;
+	height: auto;
+	padding-bottom: 48px;
 }
 
 #intro-content{
-	width: 45%;
-	margin-left: 76px;
+	width: 40%;
+	margin-left: 60px;
+	font-size: 18px;
+
 
 }
 
 
-
-
-
+/*----------GRID----------*/
 
 #grid{
-	border-style: solid;
-	height: 600px;
+	/*border-style: solid;*/
+	height: auto;
 }
+
+.column{
+	float:left;
+	width: 50%;
+	height: auto;
+	/*border-style: solid;*/
+}
+
+#grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-item{
+	width: 456px;
+	height: 256.55px;
+	background-color: grey;
+	margin: 24px 12px;
+}
+
+.grid-pic{
+	width:456px;
+	height: 256.55px;
+}
+
+
+
+.placeholder{
+	width: auto;
+	height: 144px;
+	background-color: white;
+	margin: 16px 8px;
+}
+
+
+/*------------SOCIAL MEDIA -----------*/
+
+#socialmedias{
+	padding-left: 60px;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#sociallinks{
+	padding-top: 24px;
+}
+
+.social{
+	padding-right: 32px;
+	color: grey;
+}
+
+#copyright{
+	float:right;
+	padding-right: 60px;
+}
+
+
+
+
