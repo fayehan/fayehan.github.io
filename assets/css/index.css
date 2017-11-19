@@ -7,6 +7,10 @@ body, html {
 	font-family: 'Ropa Sans', sans-serif;
 }
 
+p{
+	font-family: lato;
+}
+
 /*----------TOP-------------*/
 
 #topnav{
@@ -36,8 +40,8 @@ body, html {
 }
 
 #logo{
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	float: right;
 	position: relative;
 	top: 50%;
@@ -132,6 +136,49 @@ body, html {
 	float:right;
 	padding-right: 60px;
 }
+
+
+
+/*--------PROFILE-----*/
+#profile-pic{
+	/*padding: 28px;*/
+	position: relative;
+}
+
+
+#p-pic{
+	width:400px;
+}
+
+
+#hello{
+	position: absolute;
+	z-index: 10;
+	left: 320px;
+	top: 10px;
+	background-color: white;
+	padding: 8px;
+}
+
+
+#description{
+	position: absolute;
+	z-index: 9;
+	left: 460px;
+	bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
