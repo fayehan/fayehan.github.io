@@ -1,0 +1,75 @@
+body, html {
+	padding: 0;
+	margin: 40px;
+	/*margin-top: 60px;*/
+	font-family: 'Lato', sans-serif;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+/*----------TOP-------------*/
+
+#topnav{
+	/*border-style:solid;*/
+	height: 160px;
+	padding: 40px 60px;
+}
+
+#navcontent{
+	height:80px;
+}
+
+
+#leftnav{
+	float: left; 
+	width: 50%;
+	/*border-style: solid;*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.nav-item{
+	padding: 16px;
+	color: black;
+
+}
+
+#logo{
+	width: 60px;
+	height: 60px;
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#lg{
+	fill: black;
+}
+
+#lg:hover{
+	fill: blue;
+}
+
+/*--------INTRO------------*/
+
+#intro{
+	/*border-style: solid;*/
+	height: 200px;
+}
+
+#intro-content{
+	width: 45%;
+	margin-left: 76px;
+
+}
+
+
+
+
+
+
+#grid{
+	border-style: solid;
+	height: 600px;
+}
