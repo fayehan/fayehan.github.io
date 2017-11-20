@@ -11,6 +11,17 @@ p{
 	font-family: lato;
 }
 
+a{
+	color: #00B23B;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00B23B;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
 /*----------TOP-------------*/
 
 #topnav{
@@ -53,8 +64,20 @@ p{
 }
 
 #lg:hover{
-	fill: blue;
+	fill: #00B23B;
 }
+
+
+.social,.nav-item{
+	text-decoration: none;
+}
+
+
+
+#selected{
+	text-decoration: underline;
+}
+
 
 /*--------INTRO------------*/
 
@@ -98,7 +121,10 @@ p{
 	height: 256.55px;
 	background-color: grey;
 	margin: 24px 12px;
+	position: relative;
+	cursor: pointer;
 }
+
 
 .grid-pic{
 	width:456px;
@@ -113,6 +139,29 @@ p{
 	background-color: white;
 	margin: 16px 8px;
 }
+
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  text-align: center;
+}
+
+.text{
+	margin: auto;
+	font-size: 28px;
+	display: flex;
+	justify-content: center;
+  	flex-direction: column;
+  	height: 256.55px;
+}
+
+
+
 
 
 /*------------SOCIAL MEDIA -----------*/

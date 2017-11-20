@@ -3,13 +3,16 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Ropa+Sans:400,400i" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+		<script src = "assets/script/script.js"></script>
 	</head>
 	<body>
 
 	<div id="topnav">
 		<div id="navcontent">
 		<div id="leftnav">
-			<a href="index.html" class="nav-item">WORK</a>
+			<a href="index.html" class="nav-item" id="selected">WORK</a>
 			<a href="about.html" class="nav-item">ABOUT</a>
 		</div>
 		<svg id ="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -40,14 +43,29 @@
 	<div id="grid">
 		<div class ="column" id="col1">
 			<div class="placeholder"></div>
-			<div class="grid-item"><img class ="grid-pic" src="assets/img/intuit.png"></div>
-			<div class="grid-item"><img class ="grid-pic" src="assets/img/slack.png"></div>
+			<div class="grid-item">
+				<div class="overlay"><div class="text">Intuit Developer Portal</div></div>
+				<img class ="grid-pic" src="assets/img/intuit.png">
+			</div>
+			<div class="grid-item">
+				<div class="overlay"><div class="text">Virtually There</div></div>
+				<img class ="grid-pic" src="assets/img/slack.png">
+			</div>
 			<div class="placeholder"></div>
 		</div>
 		<div class ="column" id="col2">
-			<div class="grid-item"> <img class ="grid-pic" src="assets/img/evernote.png"> </div>
-			<div class="grid-item"><img class ="grid-pic" src="assets/img/doordash.png"></div>
-			<div class="grid-item"><img class ="grid-pic" src="assets/img/sis.png"></div>
+			<div class="grid-item">
+				<div class="overlay"><div class="text">Evernote Granular Note History</div></div>
+				<img class ="grid-pic" src="assets/img/evernote.png">
+			</div>
+			<div class="grid-item">
+				<div class="overlay"><div class="text">Doordash Redesign</div></div>
+				<img class ="grid-pic" src="assets/img/doordash.png">
+			</div>
+			<div class="grid-item">
+				<div class="overlay"><div class="text">Cal Student Information System</div></div>
+				<img class ="grid-pic" src="assets/img/sis.png">
+			</div>
 		</div>
 	</div> 
 
