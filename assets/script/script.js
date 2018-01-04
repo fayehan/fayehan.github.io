@@ -94,7 +94,7 @@ var index= 0;
 
 
 function updateSelected(){
-	// alert("I am an alert box!");
+	alert("I am an alert box!");
 	var e = document.getElementById("styles");
 	var tag = e.options[e.selectedIndex].value;
 	selected = obj.styles.filter(function (el) {
