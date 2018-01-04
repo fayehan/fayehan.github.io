@@ -1,0 +1,22 @@
+var json = {
+	"styles":[
+		{
+		"link": "<link class='textstyle' href='https://fonts.googleapis.com/css?family=Cabin|Roboto+Condensed:700' rel='stylesheet'>",
+		"title-font": "Roboto Condensed",
+		"title-cate": "Sans-Serif",
+		"title-size": "35px",
+		"para-font": "Cabin",
+		"para-cate": "Sans-Serif",
+		"para-size": "16px",
+		"tag":"style1"
+		}
+
+
+	]
+}
+
+
+
+
+
+
