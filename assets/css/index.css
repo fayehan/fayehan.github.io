@@ -1,0 +1,239 @@
+body, html {
+	padding: 0;
+	width: 980px;
+	/*margin:auto;*/
+	margin: 60px auto;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+p{
+	font-family: lato;
+}
+
+a{
+	color: #00B23B;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #00B23B;
+	text-decoration: none;
+}
+
+/*----------TOP-------------*/
+
+#topnav{
+	/*border-style:solid;*/
+	height: 160px;
+	padding: 28px 60px;
+}
+
+#navcontent{
+	height:80px;
+}
+
+
+#leftnav{
+	float: left; 
+	width: 50%;
+	/*border-style: solid;*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.nav-item{
+	padding-right: 32px;
+	color: grey;
+
+}
+
+#logo{
+	width: 40px;
+	height: 40px;
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#lg{
+	fill: grey;
+}
+
+#lg:hover{
+	fill: #00B23B;
+}
+
+
+.social,.nav-item{
+	text-decoration: none;
+}
+
+
+
+#selected{
+	text-decoration: underline;
+	color:#00B23B;
+}
+
+
+/*--------INTRO------------*/
+
+#intro{
+	/*border-style: solid;*/
+	height: auto;
+	padding-bottom: 48px;
+}
+
+#intro-content{
+	width: 40%;
+	margin-left: 60px;
+	font-size: 18px;
+
+
+}
+
+
+/*----------GRID----------*/
+
+#grid{
+	/*border-style: solid;*/
+	height: auto;
+}
+
+.column{
+	float:left;
+	width: 50%;
+	height: auto;
+	/*border-style: solid;*/
+}
+
+#grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-item{
+	width: 456px;
+	height: 256.55px;
+	background-color: grey;
+	margin: 24px 12px;
+	position: relative;
+	cursor: pointer;
+}
+
+
+.grid-pic{
+	width:456px;
+	height: 256.55px;
+}
+
+
+
+.placeholder{
+	width: auto;
+	height: 144px;
+	background-color: white;
+	margin: 16px 8px;
+}
+
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  text-align: center;
+}
+
+.text{
+	margin: auto;
+	font-size: 28px;
+	display: flex;
+	justify-content: center;
+  	flex-direction: column;
+  	height: 256.55px;
+}
+
+
+
+
+
+/*------------SOCIAL MEDIA -----------*/
+
+#socialmedias{
+	padding-left: 60px;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#sociallinks{
+	padding-top: 24px;
+}
+
+.social{
+	padding-right: 32px;
+	color: grey;
+}
+
+#copyright{
+	float:right;
+	padding-right: 60px;
+}
+
+
+
+/*--------PROFILE-----*/
+#profile-pic{
+	/*padding: 28px;*/
+	position: relative;
+}
+
+
+#p-pic{
+	width:400px;
+}
+
+
+#hello{
+	position: absolute;
+	z-index: 10;
+	left: 320px;
+	top: 10px;
+	background-color: white;
+	padding: 8px;
+}
+
+
+#description{
+	position: absolute;
+	z-index: 9;
+	left: 460px;
+	bottom: 4px;
+}
+
+
+#name{
+	cursor: pointer;
+	color :#00B23B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
