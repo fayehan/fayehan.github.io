@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="assets/css/font.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script src = "assets/script/font.js"></script>
+</head>
+
+
+<body>
+	<div id="buttonbox">
+		<p id="names"><span id="title-font">StyleOne</span> + <span id="para-font">StyleTwo</span><p>
+		<button type="button" id="prev-button">PREV</button>
+		<button type="button" id="next-button">NEXT</button>
+	</div>
+	<div id="textbox">
+		<p id="title">The spectacle before us was indeed sublime.</p>
+		<p id="para">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds.</p>
+		<!-- <p id="test">This is a test.</p> -->
+
+	</div>
+
+	
+	<div id="filters">
+		<div class="filter_ele">Style</div>
+
+		<!-- <div class="filter_ele"> -->
+		<form class="filter_ele"> 
+		  <select id="styles">
+		  	<option value="all" selected>all</option>
+		    <option value="style1" >Modern</option>
+		    <option value="style2">Vintage</option>
+		  </select>
+		</form>
+		<!-- </div> -->
+
+		<div class="filter_ele"><button onclick="updateSelected()" id="apply-btn">APPLY</button></div>
+
+	</div>
+
+
+</body>
+
+</html>
